@@ -1,0 +1,23 @@
+mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+
+cd ~/.vim/bundle
+
+git clone https://github.com/scrooloose/nerdtree.git
+
+git clone https://github.com/fholgado/minibufexpl.vim.git
+
+git clone https://github.com/vim-scripts/a.vim.git
+
+git clone https://github.com/chrisbra/Recover.vim.git
+
+
+
+
+
+
+
+
+
+env GIT_SSL_NO_VERIFY=true git clone https://github.com/chrisbra/Recover.vim.git
