@@ -1,8 +1,8 @@
 set nocompatible
 filetype off
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
 Plugin 'gmarik/vundle'
 Plugin 'scrooloose/nerdtree.git'
 Plugin 'tpope/vim-commentary'
@@ -14,8 +14,8 @@ Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'fholgado/minibufexpl.vim'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'xolox/vim-misc'
-Plugin 'xolox/vim-easytags'
-"Plugin 'Valloric/YouCompleteMe'
+call vundle#end()
+filetype plugin indent on
 
 set tabstop=4
 set shiftwidth=4
@@ -31,7 +31,7 @@ set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
 set termencoding=utf-8
 set encoding=utf-8
 syntax on
-colorscheme wombat
+"colorscheme wombat
 
 let g:CSApprox_loaded = 1
 let g:indentLine_enabled = 1
