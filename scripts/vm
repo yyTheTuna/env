@@ -1,0 +1,3 @@
+/etc/init.d/vmware start
+modprobe -a vmw_vmci vmmon
+vmware-usbarbitrator
