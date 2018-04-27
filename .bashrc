@@ -35,17 +35,36 @@ colors() {
 
 [ -r /usr/share/bash-completion/bash_completion   ] && . /usr/share/bash-completion/bash_completion
 
+alias ll='ls -l --color=auto'
 alias mk='make -j4'
 alias gc='grep --ignore-case --color -r --include \*.h --include \*.cpp'
 alias gg='grep --ignore-case --color -r'
 alias fl='find -L . -iname'
 alias hh='history'
 
+alias tn='ssh yzhang@node.tolotechnologies.com'
+alias pg='ssh 192.41.29.132'
+alias dce1='ssh -p 20024 tom@59.46.178.117'
+alias shct1='ssh -p 20301 tom@tolo-shct-1'
+alias shct2='ssh -p 64901 tom@210.5.151.245'
+alias shft1='ssh -p 30187 tom@180.169.85.220'
+alias shgf1='ssh -p 62232 tom@180.166.182.8'
+alias shgt1='ssh -p 30001 tom@220.248.117.203'
+alias shhb1='ssh tom@10.200.66.197'
+alias czce2='ssh -p 10027 tom@123.161.209.190'
+alias aliyun2='ssh tom@106.14.193.143'
+alias cme1='ssh tom@10.187.81.2'
+
+
+
+alias tocom1='ssh tom@tolo-tocom-1'
+
+
 export TERM=xterm
 
 xset b off
 
-ulimit -c unlimited
+#ulimit -c unlimited
 
 PROMPT_COMMAND=prompt_cmd
 prompt_cmd()
