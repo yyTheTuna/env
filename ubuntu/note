@@ -1,0 +1,25 @@
+
+sudo apt install i3
+vim /etc/apt/sources.list
+sudo apt-get update
+git clone https://github.com/maestrogerardo/i3-gaps-deb.git
+./i3-gaps-deb
+i3-msg reload
+i3-msg restart
+
+sudo apt-get install rxvt-unicode
+xrdb ~/.Xresources
+
+sudo apt install feh
+feh --bg-scale ~/Pictures/city_of_love-wallpaper-1920x1200.jpg
+
+sudo apt install lxappearance
+
+
+sudo apt install suckless-tools
+sudo apt-add-repository ppa:tista/adapta
+sudo apt-get update
+sudo apt-get install adapta-gtk-theme
+#sudo apt install lightdm
+
+
