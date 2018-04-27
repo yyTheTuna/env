@@ -59,6 +59,8 @@ alias cme1='ssh tom@10.187.81.2'
 
 alias tocom1='ssh tom@tolo-tocom-1'
 
+git config --global credential.helper "cache --timeout=3600"
+
 
 export TERM=xterm
 
